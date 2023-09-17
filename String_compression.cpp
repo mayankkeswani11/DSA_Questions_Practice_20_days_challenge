@@ -29,7 +29,8 @@ Output: Return 4, and the first 4 characters of the input array should be: ["a",
 Explanation: The groups are "a" and "bbbbbbbbbbbb". This compresses to "ab12".*/
 
 #include <bits/stdc++.h>
-using namespace std' int compress(vector<char> &chars)
+using namespace std;
+ int compress(vector<char> &chars)
 {
 
     int i = 0;
